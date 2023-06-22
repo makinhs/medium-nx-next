@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@medium-nx-next/components": ["libs/components/src/index.ts"],
+      "@medium-nx-next/components/server": ["libs/components/src/server.ts"],
+      "@medium-nx-next/pages-about-us": ["libs/pages-about-us/src/index.ts"],
+      "@medium-nx-next/pages-about-us/server": [
+        "libs/pages-about-us/src/server.ts"
+      ],
+      "@medium-nx-next/pages-landing-page": [
+        "libs/pages-landing-page/src/index.ts"
+      ],
+      "@medium-nx-next/pages-landing-page/server": [
+        "libs/pages-landing-page/src/server.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
