@@ -2,7 +2,9 @@
   "name": "@medium-nx-next/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build:landing-page": "nx build landing-page"
+  },
   "private": true,
   "devDependencies": {
     "@nx/cypress": "16.3.2",
